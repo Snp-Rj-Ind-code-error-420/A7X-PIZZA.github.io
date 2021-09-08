@@ -130,3 +130,33 @@ body{
 	
 	margin-left: 285px;
 }
+
+.sus-body{
+	position: fixed;
+	background: #fff;
+	left: 17%;
+	top: 10%;
+	height: 60%;
+	width: 60%;
+	border-radius: 20px;
+	padding: 50px 60px;
+	box-shadow: 4px 4px #EE5672;
+}
+.sus-body .sus-sub{
+	text-align: center;
+}
+
+hr.hr1{
+	height: 0.5%;
+	width: 60%;
+	background-color: #EE5672;
+	
+}
+.sus-body .sus-sub i{
+	position: absolute;
+	top: 45%;
+	right: 40%;
+	font-size: 200px;
+	color: #EE5672;
+	
+}
