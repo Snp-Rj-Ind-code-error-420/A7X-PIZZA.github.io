@@ -3,6 +3,7 @@ body{
 	min-height: 100vh;
 	width: 100%;
 	overflow: hidden;
+	background-image: linear-gradient(180deg, #EE5672, rgba(255,0,0,0));
 }
 .sid{
 	position: fixed;
@@ -78,6 +79,14 @@ body{
 .sid.active ul li{
 	width: 200px;
 }
+.sid.active ul li .nm{
+	opacity: 1;
+	pointer-event: none;
+}
+.sid ul li .nm{
+	opacity: 0;
+	pointer-event: none;
+}
 .sid ul li a{
 	color: #fff;
 	display: flex;
@@ -87,8 +96,17 @@ body{
 	border-radius: 20px;
 }
 
+.sid.active ul li a:hover{
+	color: #EE5672;
+	background: #fff;
+	
+	width: 200px;
+	height: 50px;
+}
 .sid ul li a:hover{
 	color: #EE5672;
+	width: 46px;
+	height: 50px;
 	background: #fff;
 }
 .sid ul li a i{
